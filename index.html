@@ -3,30 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New From</title>\
+  <title>New From</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
       <main>
-          <div class="siginup">
+          <div class="signup">
                <span >
-                      Not a member?
+                    Not a member?
                </span>
-               <button type="button" class="sign-up-btn"></button>
+               <button type="button" class="sign-up">Sign Up</button>
           </div>
 
           <div class="login">
             <span >
-                   Already have a account
+                 Already have a account
             </span>
-            <button type="button"> Login</button>
+            <button type="button" > Login</button>
        </div>
 
        <div class="back-layer">
-            <from action="" class="login-from active">
+            <form action="" class="login-from">
                  <h2 class="login-label">Login</h2>
-                 
-            </from>
+                 <input type="email"  id = "iemail" placeholder="email "/>
+                  <input type="password" id="ipassword" placeholder="password"/>
+                  <button> Login</button>  
+            </form>
+            
+            <form action="" class="sigin-from">
+                    <h2> Sign Up</h2>
+                    <input type="text" id="f-name" placeholder="First Name"/>
+                    <input type="text" id="l-name" placeholder="last Name"/>
+                    <input type="email" id="semail" placeholder="Email"/>
+                    <input type="password" id="spassword" placeholder="password"/>
+                    <button type="button"> Sign Up</button>
+            </form>
        </div>
 
       </main>
